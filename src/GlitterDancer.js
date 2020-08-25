@@ -1,5 +1,7 @@
 var GlitterDancer = function(top, left, timeBetweenSteps) {
   BlinkyDancer.call(this, top, left, timeBetweenSteps);
+  this.$node.removeClass('dancer');
+  this.$node.addClass('glitter');
 };
 
 GlitterDancer.prototype = Object.create(BlinkyDancer.prototype);

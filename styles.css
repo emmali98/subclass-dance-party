@@ -22,6 +22,24 @@ body, a:link, a:visited, a:active{
 }
 .dancer{
   border:10px solid red;
-  border-radius:10px;
+  border-radius:0px;
   position:absolute;
+}
+
+@keyframes rotation{
+  0% {
+    transform: rotate(-45deg)
+  }
+  50% {
+    transform: rotate(45deg);
+  }
+  100% {
+    transform: rotate(-45deg);
+  }
+}
+
+@keyframes neon{
+  0%{border: 10px solid #00fff0}
+  50%{border: 10px solid #c7ff00}
+  100%{border: 10px solid #ff00d9}
 }

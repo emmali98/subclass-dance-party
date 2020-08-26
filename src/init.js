@@ -48,4 +48,8 @@ $(document).ready(function() {
       window.dancers[i][methodFunc]();
     }
   });
+
+  $('.clear').on('click', function(event) {
+    $('.dancer').remove();
+  });
 });

@@ -5,6 +5,9 @@ body{
   margin: 0px;
   background-color:#444;
   font-size: 18px;
+  /* background-image: url('https://.imgur.com/UwuqHf6.jpg'); */
+  background-image: url('https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fgetwallpapers.com%2Fwallpaper%2Ffull%2F1%2Fd%2F5%2F53597.jpg&f=1&nofb=1');
+  background-size: cover;
 }
 body, a:link, a:visited, a:active{
   color: lightblue;
@@ -50,6 +53,7 @@ img:hover {
     transform: rotate(-45deg);
   }
 }
+
 
 @keyframes neon{
   0% {
